@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "925028763678",
+    "firebase_url": "https://onyeshatalanta-4eef5.firebaseio.com",
+    "project_id": "onyeshatalanta-4eef5",
+    "storage_bucket": "onyeshatalanta-4eef5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925028763678:android:73cefbfe160de33942060f",
+        "android_client_info": {
+          "package_name": "com.example.onyeshatalanta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925028763678-05b7dj783cs32bsmfvoi9hugsv3pm0h7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcoovM60nseTub7Ww7mqirw19olXtns0A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925028763678-05b7dj783cs32bsmfvoi9hugsv3pm0h7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

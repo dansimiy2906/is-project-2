@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">OnyeshaTalanta</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_activity_upload_options">UploadOptions</string>
+    <string name="tab_text_1">Photos</string>
+    <string name="tab_text_2">videos</string>
+    <string name="tab_text_3">Stories</string>
+    <string name="title_activity_individual_post">IndividualPost</string>
+</resources>

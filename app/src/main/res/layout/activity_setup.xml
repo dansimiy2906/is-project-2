@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SetupActivity"
+    >
+
+    <TextView
+        android:id="@+id/setup_userInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:text="User Info"
+        android:textAlignment="center"
+        android:textColor="@color/gold"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/setup_profile_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/profile"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <EditText
+        android:id="@+id/setup_username"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="UserName"
+        android:layout_margin="10dp"
+        android:paddingStart="10dp"
+        android:textColor="@android:color/white"
+        android:drawableStart="@drawable/custom_email_input"
+        android:drawablePadding="10dp"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/grey"
+        android:background="@drawable/custom_input"
+        android:drawableLeft="@drawable/custom_email_input"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/setup_fullname"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Full Name"
+        android:layout_margin="10dp"
+        android:paddingStart="10dp"
+        android:drawablePadding="10dp"
+        android:textColor="@android:color/white"
+        android:inputType="text"
+        android:textColorHint="@color/grey"
+        android:background="@drawable/custom_input"
+        android:drawableLeft="@drawable/custom_email_input"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/setup_country_name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Country Name"
+        android:layout_margin="10dp"
+        android:paddingStart="10dp"
+        android:drawablePadding="10dp"
+        android:inputType="text"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/grey"
+        android:background="@drawable/custom_input"
+        android:drawableLeft="@drawable/custom_email_input"
+        android:paddingLeft="10dp" />
+
+
+    <Button
+        android:id="@+id/setup_information_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gold"
+        android:text="Save"
+        android:textColor="@android:color/white"
+        android:layout_margin="10dp"
+        android:textSize="25sp"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ProfileActivity"
+    >
+    <include
+        android:id="@+id/profileToolbar"
+        layout="@layout/app_bar_layout"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/myProfile_pic"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/profile">
+            </de.hdodenhof.circleimageview.CircleImageView>
+            <TextView
+                android:id="@+id/myprofile_Full_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="5dp"
+                android:hint="Profile Name"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:gravity="start"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:layout_below="@+id/myProfile_pic"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+            <TextView
+                android:id="@+id/myprofile_Username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:hint="UserName"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:gravity="start"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:layout_below="@+id/myprofile_Full_Name"
+                tools:ignore="RtlCompat" />
+            <TextView
+                android:id="@+id/myprofile_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:hint="Status"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:gravity="start"
+                android:textSize="22sp"
+                android:textAllCaps="false"
+                android:layout_below="@+id/myprofile_Username"
+                android:layout_marginTop="5dp"
+                tools:ignore="RtlCompat" />
+            <TextView
+                android:id="@+id/mycountry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Country"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:gravity="start"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:layout_marginTop="60dp"
+                android:layout_below="@+id/myprofile_status"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/mydob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:hint="Date Of Birth"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:gravity="start"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:layout_below="@+id/mycountry"
+                tools:ignore="RtlCompat" />
+            <TextView
+                android:id="@+id/mygender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:hint="Gender"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:gravity="start"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:layout_below="@+id/mydob"
+                tools:ignore="RtlCompat" />
+            <TextView
+                android:id="@+id/relationshipStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:hint="Relationship Status"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:gravity="start"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:layout_below="@+id/mygender"
+                tools:ignore="RtlCompat" />
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>
